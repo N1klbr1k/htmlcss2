@@ -1,0 +1,74 @@
+#flex1{
+    display: flex;
+    justify-content: left;
+    width: 100vw;
+    height: 100px;
+    align-items: center;
+    background-color: grey;
+}
+
+#flex1 > #box1 {
+    background-color: aqua;
+    height: 75px;
+    width: 75px;
+    margin: 4%
+}
+
+#flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#flex2 > #textDiv{
+    margin: 3%;
+}
+
+#flex3 {
+    display: block;
+    background-color: blue;
+    height: 200 px;
+}
+#exflex{
+    display: block;
+    background-color: blue;
+    height: 200px;
+}
+
+#flex4 {
+    display: block;
+    background-color: aquamarine;
+    height: 200px;
+}
+
+#flex5{
+    display: block;
+    background-color: lightgreen;
+    height: 200px;
+}
+
+#flex6{
+    display: block;
+    background-color: yellowgreen;
+    height: 200px;
+}
+
+#iconSection {
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    right: 0px;
+    margin: 1%;
+    bottom: 10px;
+    margin-left: 1%;
+}
+
+#iconSection > #icon {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}

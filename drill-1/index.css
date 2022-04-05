@@ -1,0 +1,39 @@
+header {
+    background-color: grey;
+    position: sticky;
+    height: 100px;
+    top:0px;
+}
+body > div {
+    background-color: lightgray;
+   
+}
+
+footer{
+    background-color: black;
+    position: relative;
+    left: 17px;
+    height: 100px;
+   width: 75vw;   
+   margin: auto;
+   bottom: 0px;
+
+}
+
+#flexbox {
+  
+    display: flex;
+    width: 100vw ;
+    height: 100vh;
+  
+    
+   
+}
+
+#flexbox > div {
+    width: 75vw;
+    height: 100vh;
+    background-color: white;
+    margin: auto;
+}
+
